@@ -1,7 +1,7 @@
 import 'dotenv/config';
 
-import {Connection, LAMPORTS_PER_SOL, clusterApiUrl, PublicKey} from '@solana/web3.js';
-import { airdropIfRequired, getKeypairFromEnvironment } from '@solana-developers/helpers';
+import {clusterApiUrl, Connection, LAMPORTS_PER_SOL, PublicKey} from '@solana/web3.js';
+import {airdropIfRequired, getKeypairFromEnvironment} from '@solana-developers/helpers';
 import bs58 from 'bs58';
 
 const CLUSTER = "devnet";
